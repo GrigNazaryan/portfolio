@@ -1,0 +1,185 @@
+/* Works.css */
+
+.slider-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    padding: 0 60px;
+    margin-top: 30px;
+}
+
+.custom-prev,
+.custom-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #00ffc8;
+    z-index: 20;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+    transform: translateY(-50%) scale(1.2);
+}
+
+.custom-prev {
+    left: 10px;
+}
+
+.custom-next {
+    right: 10px;
+}
+
+.project-title {
+    font-size: 30px;
+}
+
+.project-box {
+    width: 300px;
+    background: #222;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.project-box img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-count {
+    font-size: 1.5rem;
+    color: #00ffc8;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.slider-wrapper {
+    position: relative;
+    padding: 0 60px;
+    margin-top: 30px;
+}
+
+.custom-prev,
+.custom-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #00ffc8;
+    z-index: 20;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+    transform: translateY(-50%) scale(1.2);
+}
+
+.custom-prev {
+    left: 10px;
+}
+
+.custom-next {
+    right: 10px;
+}
+
+.project-box {
+    background: #222;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.project-box img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-count {
+    font-size: 1.5rem;
+    color: #00ffc8;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.slider-wrapper {
+  position: relative;
+  padding: 0 60px;
+  margin: 30px auto;
+  max-width: 1000px; /* максимум ширины слайдера */
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper {
+    padding: 0 20px;
+    max-width: 100%; /* на мобильных растягиваем на всю ширину */
+  }
+
+  .custom-prev {
+    left: 5px;
+  }
+  .custom-next {
+    right: 5px;
+  }
+}
+
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #00ffc8;
+  z-index: 20;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+.custom-prev {
+  left: 10px;
+}
+
+.custom-next {
+  right: 10px;
+}
+.swiper_slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-box {
+  background: #222;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  width: 50%;
+}
+
+.project-box img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
