@@ -94,6 +94,7 @@ const Works = () => {
         </div>
 
         <div
+          className="slider_box"
           ref={slideRef}
           onTransitionEnd={handleTransitionEnd}
           style={{
