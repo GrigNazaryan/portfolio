@@ -1,4 +1,3 @@
-/* Общие настройки */
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -29,7 +28,6 @@ p {
     line-height: 1.6;
 }
 
-/* Главная секция */
 .home-title {
     font-size: 2.5em;
     font-weight: bold;
@@ -47,7 +45,6 @@ p {
     color: #ccc;
 }
 
-/* Информация и блоки */
 .info-container {
     display: flex;
     flex-direction: column;
@@ -97,7 +94,6 @@ p {
     color: #ccc;
 }
 
-/* Проекты */
 .projects_container {
     width: 100%;
     height: 200px;
@@ -162,7 +158,6 @@ p {
     color: #fff;
 }
 
-/* Контакты */
 .contact-heading {
     font-size: 2em;
     color: #00f7ff;
@@ -235,7 +230,6 @@ p {
     pointer-events: none;
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
     .stats {
         flex-direction: column;
@@ -315,4 +309,9 @@ p {
     height: 450px;
     z-index: 987 !important;
     background: url(images/bg.png), no-repeat center / 100% 100%;
+}
+.Home{
+    width:100%;
+    height:100vh;
+    flex-wrap:wrap;
 }
