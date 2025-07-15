@@ -1,11 +1,11 @@
-/* Контейнер для контента */
 .container {
   max-width: 1200px;
   padding: 0 20px;
   margin: 0 auto;
 }
-
-/* Навигация */
+@media(max-width:1440px){
+  width:100%;  
+}
 nav ul {
   display: flex;
   gap: 20px;
@@ -14,7 +14,6 @@ nav ul {
   list-style: none;
 }
 
-/* Картинки адаптивные */
 img {
   max-width: 100%;
   height: auto;
@@ -23,7 +22,6 @@ img {
   object-fit: cover;
 }
 
-/* Кнопки-стрелки */
 .custom-prev,
 .custom-next {
   cursor: pointer;
@@ -51,9 +49,7 @@ img {
   text-align: center;
 }
 
-/* Медиазапросы для адаптива */
 
-/* Планшеты и небольшие экраны */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -73,7 +69,6 @@ img {
   }
 }
 
-/* Мобильные телефоны */
 @media (max-width: 480px) {
   nav ul {
     font-size: 14px;
