@@ -3,7 +3,8 @@ import Home from './component/Home';
 import Works from "./component/Works";
 import Contact from './component/Contact';
 import About from './component/About';
-import "./App.css"
+import "./App.css";
+import "./responsive.css";
 
 function App() {
   return (
