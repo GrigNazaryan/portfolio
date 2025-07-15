@@ -4,7 +4,10 @@
   margin: 0 auto;
 }
 @media(max-width:1440px){
+  .row{
   width:100%;  
+  
+  }
 }
 nav ul {
   display: flex;
