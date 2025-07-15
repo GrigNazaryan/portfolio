@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <section>
+    <section className="Home">
       <h1 className="home-title">Developer</h1>
       <p className="home-subtitle">Hey I’m <span style={{ color: '#00f7ff' }}>Grig</span>, Frontend Developer</p>
       <p className="home-description">
