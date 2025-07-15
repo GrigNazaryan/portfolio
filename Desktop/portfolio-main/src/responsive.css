@@ -1,0 +1,93 @@
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media(max-width:1440px) {
+  .row {
+    width: 100%;
+  }
+
+  .slider_box {
+    width: 80%;
+  }
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.custom-prev,
+.custom-next {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  transform: scale(1.2);
+}
+
+/* Проектные карточки */
+.project-box {
+  background: #222;
+  border-radius: 10px;
+  padding: 16px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  max-width: 90vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .project-box {
+    width: 80% !important;
+  }
+
+  .custom-prev {
+    left: 5px;
+  }
+
+  .custom-next {
+    right: 5px;
+  }
+}
+
+nav ul {
+  font-size: 14px;
+}
+
+.project-box {
+  width: 100% !important;
+  padding: 12px;
+}
+
+.custom-prev,
+.custom-next {
+  font-size: 2.5rem;
+  padding: 8px;
+}
